@@ -9,7 +9,7 @@ requests
 langchain
 langchain-groq
 sqlalchemy
-
+ffmpeg
 streamlit
 pandas
 chromadb

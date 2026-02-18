@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: voxguard
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: chmod +x start.sh && ./start.sh
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0

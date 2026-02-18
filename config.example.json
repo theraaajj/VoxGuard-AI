@@ -1,0 +1,5 @@
+{
+    "channels": ["list of channel IDs to be monitored."],
+     "email": "[EMAIL_ADDRESS]", 
+     "smtp_password": "[PASSWORD]"
+}
